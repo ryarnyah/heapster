@@ -321,6 +321,56 @@
 			"Rev": "fc2b8d3a73c4867e51861bbdd5ae3c1f0869dd6a"
 		},
 		{
+			"ImportPath": "github.com/nats-io/gnatsd/conf",
+			"Comment": "v1.0.4-19-gb56ca22",
+			"Rev": "b56ca22d1bfb571fa395a35fe698b0eb7f95e706"
+		},
+		{
+			"ImportPath": "github.com/nats-io/gnatsd/logger",
+			"Comment": "v1.0.4-19-gb56ca22",
+			"Rev": "b56ca22d1bfb571fa395a35fe698b0eb7f95e706"
+		},
+		{
+			"ImportPath": "github.com/nats-io/gnatsd/server",
+			"Comment": "v1.0.4-19-gb56ca22",
+			"Rev": "b56ca22d1bfb571fa395a35fe698b0eb7f95e706"
+		},
+		{
+			"ImportPath": "github.com/nats-io/gnatsd/server/pse",
+			"Comment": "v1.0.4-19-gb56ca22",
+			"Rev": "b56ca22d1bfb571fa395a35fe698b0eb7f95e706"
+		},
+		{
+			"ImportPath": "github.com/nats-io/gnatsd/test",
+			"Comment": "v1.0.4-19-gb56ca22",
+			"Rev": "b56ca22d1bfb571fa395a35fe698b0eb7f95e706"
+		},
+		{
+			"ImportPath": "github.com/nats-io/gnatsd/util",
+			"Comment": "v1.0.4-19-gb56ca22",
+			"Rev": "b56ca22d1bfb571fa395a35fe698b0eb7f95e706"
+		},
+		{
+			"ImportPath": "github.com/nats-io/go-nats",
+			"Comment": "v1.4.0-2-g78ec4b9",
+			"Rev": "78ec4b93936d7a00e59b7f3939d8116955916d1b"
+		},
+		{
+			"ImportPath": "github.com/nats-io/go-nats/encoders/builtin",
+			"Comment": "v1.4.0-2-g78ec4b9",
+			"Rev": "78ec4b93936d7a00e59b7f3939d8116955916d1b"
+		},
+		{
+			"ImportPath": "github.com/nats-io/go-nats/util",
+			"Comment": "v1.4.0-2-g78ec4b9",
+			"Rev": "78ec4b93936d7a00e59b7f3939d8116955916d1b"
+		},
+		{
+			"ImportPath": "github.com/nats-io/nuid",
+			"Comment": "v1.0.0-3-g33c6031",
+			"Rev": "33c603157d6fd1b0ac2599bcc4a286b36479a06d"
+		},
+		{
 			"ImportPath": "github.com/optiopay/kafka",
 			"Rev": "bc8e0950689f19fafd454acd517abe7b251cf54f"
 		},
@@ -396,6 +446,14 @@
 			"Rev": "ded73eae5db7e7a0ef6f55aace87a2873c5d2b74"
 		},
 		{
+			"ImportPath": "golang.org/x/crypto/bcrypt",
+			"Rev": "d172538b2cfce0c13cee31e647d0367aa8cd2486"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/blowfish",
+			"Rev": "d172538b2cfce0c13cee31e647d0367aa8cd2486"
+		},
+		{
 			"ImportPath": "golang.org/x/crypto/ssh/terminal",
 			"Rev": "d172538b2cfce0c13cee31e647d0367aa8cd2486"
 		},
@@ -465,6 +523,30 @@
 		},
 		{
 			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows/registry",
+			"Rev": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows/svc",
+			"Rev": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows/svc/debug",
+			"Rev": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows/svc/eventlog",
+			"Rev": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows/svc/mgr",
 			"Rev": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9"
 		},
 		{

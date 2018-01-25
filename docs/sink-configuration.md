@@ -357,6 +357,32 @@ For example,
 
     --sink="honeycomb:?dataset=mydataset&writekey=secretwritekey"
 
+### NATS
+
+This sink supports both monitoring metrics and events.
+
+To use the nats sink add the following flag:
+
+    --sink="nats:<?<OPTIONS>>"
+
+Normally, nats server has multi brokers, so brokers' list need be configured for producer.
+So, we provide nats brokers' list and subjects in url's query string.
+Options can be set in query string, like this:
+
+* `brokers` - Nats's brokers' list.
+* `subject` - Nats's subject. Default value : `heapster.subject`.
+* `user` - Nats's username to be used when connecting to the server. Use it with `password` field.
+* `password` - Nats's password to be used when connecting to a server. Use it with `user` field.
+* `token` - Nats's token to be used when connecting to a server. 
+* `cacert` - Nats's cacert file to be used to validate server certificate.
+* `cert` - Nats's client certificate file to be used when two-way tls is used.  Use it with `key` field.
+* `key` - Nats's client private key file to be used when two-way tls is used. Use it with `cert` field.
+
+For example,
+
+    --sink="nats:?brokers=nats://localhost:4222&subject=heapster.metrics"
+
+
 ## Using multiple sinks
 
 Heapster can be configured to send k8s metrics and events to multiple sinks by specifying the`--sink=...` flag multiple times.
